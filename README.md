@@ -27,9 +27,8 @@ A new result will show every time the user inputs and submits a new number, repl
   * Input:
   * Output:  -->
 
-| Behavior | Example Input | Example Output: |
+| Behavior (Our program should handle:) | Example Input (When it receives:) | Example Output (It should return:) |
 | ----------- | ----------- | ----------- |
-| **Our program should handle:** | **When it receives:** | **It should return:** |
 | Numbers that contain a 3: all digits are replaced with "I'm sorry, Dave. I'm afraid I can't do that." | 13 or 32 | I'm sorry, Dave. I'm afraid I can't do that. |
 | Numbers that contain a 2, but not a 3: all digits are replaced with "Boop!" | 21 | Boop! |
 | Numbers that contain a 1, but not a 2 or a 3: all digits are replaced with "Beep!" | 1 | Beep! |
