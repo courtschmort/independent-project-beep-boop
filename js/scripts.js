@@ -4,7 +4,7 @@ function functionBeepBoop(input) {
   let array = [];
 
   for (index = 0; index <= input; index ++) {
-    if (index.toString() === "3") {
+    if (index.toString().includes("3")) {
       array.push(" " + "I'm sorry, Dave. I'm afraid I can't do that.");
       console.log(array);
     } else {
