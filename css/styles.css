@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: 'McLaren', cursive;
   font-size: 1.25rem;
+  line-height: 2.5rem;
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   text-shadow: .25rem .25rem .25rem #800600;
+  margin-bottom: 1.25rem;
 }
 
 h6 {
@@ -23,11 +25,14 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
-.callout-text {
+.red-text {
   color: #BC1007;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: .25rem .5rem;
+  margin: .25rem;
 }
 
 .btn-custom {
@@ -40,5 +45,8 @@ form {
 }
 
 #footer {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
 }
