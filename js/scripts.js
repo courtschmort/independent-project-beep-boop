@@ -2,7 +2,6 @@
 
 function functionBeepBoop(input) {
   let array = [];
-
   for (index = 0; index <= input; index ++) {
     if (index.toString().includes("3")) {
       array.push(" " + "I'm sorry, Dave. I'm afraid I can't do that.");
@@ -17,7 +16,6 @@ function functionBeepBoop(input) {
     }
   }
   return array;
-
 } // This is the end of the function.
 
 // FRONT-END LOGIC

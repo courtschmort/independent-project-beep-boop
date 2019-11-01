@@ -1,18 +1,21 @@
 body {
-  background-color: #212529;
-  color: #f8f9fa;
+  background-color: #FF4136;
+  color: #FFF;
   text-align: center;
+  font-family: 'McLaren', cursive;
+  font-size: 1.25rem;
 }
 
 h1 {
-  color: #fff;
+  color: #FFF;
   font-size: 5rem;
   font-weight: 700;
+  text-shadow: .25rem .25rem .25rem #800600;
 }
 
 h6 {
-  color: #6c757d; /* #343a40 */
-  font-size: 2rem;
+  color: #800600;
+  font-size: 1.25rem;
   font-weight: normal;
 }
 
@@ -23,6 +26,19 @@ form {
   margin-top: 20%;
 }
 
-.grey {
-  color: #6c757d;
+.callout-text {
+  color: #BC1007;
+}
+
+.btn-custom {
+  background-color: #800600;
+  color: #FFF;
+}
+
+.btn-custom:hover {
+  color: #BC1007;
+}
+
+#footer {
+  
 }
