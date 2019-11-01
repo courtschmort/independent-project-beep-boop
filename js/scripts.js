@@ -5,21 +5,27 @@ function functionBeepBoop(input) {
 
   for (index = 0; index <= input; index ++) {
     if (index.toString() === "3") {
-      array.push("I'm sorry, Dave. I'm afraid I can't do that.");
+      array.push(" " + "I'm sorry, Dave. I'm afraid I can't do that.");
       console.log(array);
-    } else if (index.toString() === "2") {
-      array.push("Boop!");
-      console.log(array);
-    } else if (index.toString() === "1") {
-      array.push("Beep!");
-      console.log(array);
-    } else if (input === "0") {
-      alert("Zero. Really? Please enter a number greater than 0.");
     } else {
-      alert("Give me something to work with! Please enter a number.");
+      array.push(" " + index);
+      console.log(array);
     }
-    return array;
+    // else if (index.toString() === "2") {
+    //   array.push("Boop!");
+    //   console.log(array);
+    // } else if (index.toString() === "1") {
+    //   array.push("Beep!");
+    //   console.log(array);
+    // } else if (input === "0") {
+    //   alert("Zero. Really? Please enter a number greater than 0.");
+    // } else {
+    //   array.push();
+    // }
+
   }
+  return array;
+
 
   // let newArray = originalArray.map(function(input, i) {
   //   if (input.includes("3")) {
@@ -44,7 +50,7 @@ function functionBeepBoop(input) {
 $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
-    var input = parseInt($("#number").val());
+    var input = $("#number").val();
 
     var output = functionBeepBoop(input);
 
